@@ -1,7 +1,7 @@
-## 1. Project Title: **Project name**
+## 1. Project Title: **PIE**
 
 ## 2. Overview
-#### 2.1 Big Picture of **Project name** system
+#### 2.1 Big Picture of **PIE** system
 ![Big Picture](https://github.com/nguyenthihoangphuong/images/blob/Backend/PIE%20system.png?raw=true)
 
 #### 2.2 Description:
