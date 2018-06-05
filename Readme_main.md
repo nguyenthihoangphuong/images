@@ -25,37 +25,45 @@
 > Connect cassandra, manage all object point: vehicle, route, leg, etc.
 
 **- Hermes:** 
-> Send messages & email.
+> Send messages(torilio) & email(sendgrid).
+
+**How to save object points?**
+> **Live Map:** 
+> > Show position of driver job in real time. Mobile will push position to *parrot*, *fenice*. *Eagle* server will save this value on cassandra.
+> > 
+> > ![Object points](https://github.com/nguyenthihoangphuong/images/blob/Backend/ObjectPoint.png?raw=true)
 
 #### 3.1.2 Installing:
-[Backend_installing](https://github.com/piemapping/backend/tree/feature/DEVOPS-244)
+> [Backend_installing](https://github.com/piemapping/backend/tree/feature/DEVOPS-244)
 
 #### 3.1.3 Documents:
-**- User story**
-[Backend_userstory](https://github.com/piemapping/backend/doc/userstory)
-**- UML**
-[Backend_UML](https://github.com/piemapping/backend/doc/UML)
+
 **- Testing**
-[Backend_UML](https://github.com/piemapping/backend/doc/testing)
+
+> [Manual Test](https://docs.google.com/spreadsheets/d/1ToHisXyfIsDtZlo8jC60lPzzWNz8Vs0szuJJczNzkoY/edit#gid=1441377163)
+
+> [Functional Test](https://github.com/piemapping/frontend/tree/develop/functional-test/features)
+
 **- User guidle**
-[Backend_UML](https://github.com/piemapping/backend/doc/user_guidle)
+
 
 ### 3.2 Frontend:
+#### 3.2.1 Installing:
+> [Frontend_installing](https://github.com/piemapping/frontend)
 
 ## 4. Contact
+Team: PIE-Backend
+
 | Name          | Position      | Email                |
 | ------------- |:-------------:| --------------------:|
-| AAA           | PM            | AAA@dwarvesv.com     |
-|               |               |                      |
-|               |               |                      |
-
+| Ân            | PM            | an@dwarvesv.com      |
+| Huy           | Developer     | huy@dwarvesv.com     |
+| Quang         | Devops        | quang@dwarvesv.com   |
 
 ## 5. Version
 | Version          | Release date      | Description          |
 | ---------------- |:-----------------:| --------------------:|
-| V1.0.1           | Sep 10th, 2016    | AAA@dwarvesv.com     |
-|                  |                   |                      |
-|                  |                   |                      |
+| V1.0.1           | Sep 10th, 2016    |                      |
 
 ## 6. License
 
