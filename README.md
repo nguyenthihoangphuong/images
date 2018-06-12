@@ -272,26 +272,6 @@
 #### 3.2.1 Installing:
 > [Frontend_installing](https://github.com/piemapping/backend/blob/feature/DEVOPS-244/README_FrontEnd.md)
 
-##1. Create accounts:
-
-###1.1  Init VM instances in Google Cloud:
-
-Go to Compute Enginers > VM instances
-
-> ![VM instances](https://github.com/nguyenthihoangphuong/images/blob/CreateNewClientEnvironment/VM%20instances.png?raw=true)
-
-
-###1.2  Create Service account in AIM & admin:
-
-Go to AIM & admin, create account service, configuration files on Teraform
-
-> ![VM instances](https://github.com/nguyenthihoangphuong/images/blob/CreateNewClientEnvironment/AIM%20&%20admin,%20create%20account%20service.png?raw=true)
-
-Grant project owner
-
-> ![VM instances](https://github.com/nguyenthihoangphuong/images/blob/CreateNewClientEnvironment/grant%20project%20owner.png?raw=true)
-
-##2. Go to stack driver
 
 ##3. View configuration:
 
