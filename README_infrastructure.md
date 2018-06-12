@@ -40,11 +40,23 @@ Grant project owner
 
 	Update services version (develop/lastest/v0.29.0) - git version of `Pie-Backend` source code.
 	
-###3.3 Configurate service_accounts.json 
-<mark>Slack</mark> teraform.json file: environments/{subdomain}/service_accounts/terraform-{env}.json 
+###3.3 Configurate teraform.json file: 
+Link file: environments/{subdomain}/service_accounts/terraform-{env}.json 
+
+	- "type"
+	- "project_id"
+	- "private_key_id"
+	- "private_key"
+	- "client_id"
+	- "auth_uri"
+	- "token_uri"
+	- "auth_provider_x509_cert_url"
+	- "client_x509_cert_url"
 	
-###3.4 file {env}.sh => environments/{subdomain}/{env}.sh <mark>Slack</mark>
-Grant +x
+###3.4 Configurate {env}.sh file 
+
+	- Link file: environments/{subdomain}/{env}.sh 
+	- Grant +x
 
 ###3.5 File ansible.yml
 Target config this file:
