@@ -7,18 +7,16 @@
 
 Go to Compute Enginers > VM instances
 
-> ![VM instances](https://github.com/nguyenthihoangphuong/images/blob/CreateNewClientEnvironment/VM%20instances.png?raw=true)
 
 
 ###1.2  Create Service account in AIM & admin:
 
 Go to AIM & admin, create account service, configuration files on Teraform
 
-> ![VM instances](https://github.com/nguyenthihoangphuong/images/blob/CreateNewClientEnvironment/AIM%20&%20admin,%20create%20account%20service.png?raw=true)
+
 
 Grant project owner
 
-> ![VM instances](https://github.com/nguyenthihoangphuong/images/blob/CreateNewClientEnvironment/grant%20project%20owner.png?raw=true)
 
 ##2. Go to stack driver
 
@@ -43,7 +41,6 @@ Grant project owner
 
 Get *project_id* at page:
 
-> ![project_id](https://github.com/nguyenthihoangphuong/images/blob/CreateNewClientEnvironment/project_id.png?raw=true)
 
 ###3.2 Configurate [dev.yml](https://github.com/piemapping/infrastructure/blob/dev/environments/fleet/config/dev.yml) file:
 
@@ -80,7 +77,7 @@ Target config this file:
 	- elastic search: index - each client has different index configuration
 	- pusher: third party to notification
 
-> ![Pusher](https://github.com/nguyenthihoangphuong/images/blob/CreateNewClientEnvironment/pusher.png?raw=true)
+
 
 **Config ansible.yml file  for 2 cases: (single-tenancy) or (multi-tenancy):**
 
@@ -99,10 +96,9 @@ Target config this file:
 - Run teraform to create platform
 - terraform apply
 - Result:
-![Terraform successful](https://github.com/nguyenthihoangphuong/images/blob/CreateNewClientEnvironment/Terraform%20Successful.png?raw=true)
+
 
 ##5. Config DNS
 
 - Go to google domain: https://domains.google.com/
 - Config DNS 
-![DNS](https://github.com/nguyenthihoangphuong/images/blob/CreateNewClientEnvironment/DNS.png?raw=true)
