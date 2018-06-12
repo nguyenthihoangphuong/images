@@ -1,5 +1,5 @@
 
-#How to setup *Develoment* environment
+##How to setup *Develoment* environment
 
 ##1. Create accounts:
 
