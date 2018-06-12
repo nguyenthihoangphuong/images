@@ -90,9 +90,9 @@ Target config this file:
 ## 4. Push to repository:
 
 - Run teraform 	
-> cd workspace/go/src/github.com/piemapping/infrastructure/terraform
-> terraform env new {subdomain}-{env}
-> > ex: terraform env new fleet-dev
+	> cd workspace/go/src/github.com/piemapping/infrastructure/terraform
+	> terraform env new {subdomain}-{env}
+	> > ex: terraform env new fleet-dev
 
 - terraform plan to check {env}.tfvars file
 - Run teraform to create platform
